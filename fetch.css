@@ -1,0 +1,111 @@
+/* body{
+margin: 0;
+padding: 0;
+background-color: black;
+color:whitesmoke;
+box-sizing: border-box;
+}
+section{
+  min-height: 100vh;
+  max-width: 400px;
+  width:100%;
+  padding:90px 0;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container{
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:2rem;
+  margin:10px;
+  background-color: gray;
+}
+.Simpson{
+  font-size: 1.4rem;
+  font-weight: 200;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+button{
+  font-size: 1.2em;
+  background-color: black;
+  color:white;
+  margin-top: 90rem;
+  padding:1rem;
+  margin:.9rem;
+  align-self: flex-end;
+  width:fit-content;
+
+}
+ */
+
+
+ *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/**
+* Layout
+*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/**
+* Button Styles
+* https://fdossena.com/?p=html5cool/buttons/i.frag
+*/
+button {
+  color:white;
+  text-transform: uppercase;
+  background: rgb(48, 75, 8);
+  padding: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  outline:none;
+}
+
+/**
+* Blockquotes
+*/
+blockquote {
+  border: 0.25em solid #e5e5e5;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 0 0 1.5625em;
+  padding-left: 1em;
+  padding-right: 1em;
+  quotes: none;
+  box-shadow:  4px 3px 5px gray; 
+  background-color: antiquewhite;
+   
+}
+
+blockquote:before,
+blockquote:after {
+  content: '';
+}
+
+@media (min-width: 800px){
+blockquote{
+  width: 66.5%;
+ }
+}
