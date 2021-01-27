@@ -67,6 +67,6 @@ blockquote:after {
 
 @media (min-width: 800px){
 blockquote{
-  width: 66.5%;
+  width: 100%;
  }
 }
